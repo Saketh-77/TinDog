@@ -1,0 +1,148 @@
+body{
+  text-align: center;
+}
+h2{
+ font-family: "Lato",sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff0b55;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Title section */
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title .container-fluid{
+    text-align: left;
+  padding: 3% 15% 7%;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;/* z-index works for elements only if they are positioned (relative,absolute)*/
+  right: 30%;
+}
+
+/* Feature section */
+#features{
+  font-family: 'Lato', sans-serif;
+  padding: 7% 15%;
+  position: relative;
+}
+.f-icons{
+  color: #ef8172;
+  margin-bottom: 2.5%;
+}
+.f-icons:hover{
+  color: #ff4c68;
+}
+#features > h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Bold";
+}
+.section-2{
+  font-size: 1.4rem;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+/* navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.testimonial-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#cta{
+  padding: 40px 150px 60px;
+}
+#cta > h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem;
+  width: 80%;
+  padding-left: 18%;
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 3.6%;
+  color: #fff;
+}
+.cta-button{
+  margin: auto 1.4% 3%;
+}
+
+#footer{
+  margin: 5% auto;
+}
+.footer-icons{
+  padding: 0.7%;
+  padding-bottom: 1%;
+}
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
